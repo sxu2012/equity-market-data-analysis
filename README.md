@@ -1,7 +1,7 @@
 # Equity Market Data Analysis
 Data are collected daily on trades and quotes form multiple exchanges. This project creates data platforms and pipelines that provide insights through merging data points and calculating key indicators. It is implemented on a local spark system first on Windows 11, then deployed to Azure Databricks.
 Files and folders:
-1. guided-cap.drawio/guided-cap-draw.pdf: Step Nne, Design the architecture diagram
+1. guided-cap.drawio/guided-cap-draw.pdf: Architecture diagram
 2. Azure: Folder contains all exported Jupyter notebooks on Azure Databricks:
     - screenshots.pdf: collections of screenshots on Azure Databricks and Storages to show the development process
     - ingestion.ipynb/ingestion.html: Step Two, Data ingestions; Read data from Azure Blob storage, parse CSV and JSON files, filter, then persist the spark dataframe to parquet files with partitions
